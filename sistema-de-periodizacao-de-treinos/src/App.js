@@ -1,12 +1,13 @@
 import React from "react";
+import Router from "./routes/Router";
 
 
-const App = ()=> {
+const App = () => {
   return (
     <div>
-      Periodização CFPALMA
+      <Router/>
     </div>
   );
-}
+};
 
 export default App;
